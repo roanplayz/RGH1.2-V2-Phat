@@ -84,7 +84,7 @@
             <line x2="0" y1="-32" y2="-32" x1="64" />
             <line x2="384" y1="-32" y2="-32" x1="320" />
         </blockdef>
-        <blockdef name="quad_nand">
+        <blockdef name="penta_nand">
             <timestamp>2022-8-5T15:13:53</timestamp>
             <rect width="256" x="64" y="-448" height="448" />
             <line x2="0" y1="-416" y2="-416" x1="64" />
@@ -128,12 +128,13 @@
             <blockpin signalname="XLXN_7" name="CLK" />
             <blockpin signalname="XLXN_16" name="CLK_D" />
         </block>
-        <block symbolname="quad_nand" name="XLXI_13">
+        <block symbolname="penta_nand" name="XLXI_13">
             <blockpin signalname="RST" name="RST" />
             <blockpin signalname="CES" name="CES" />
             <blockpin signalname="CED" name="CED" />
             <blockpin signalname="CET" name="CET" />
             <blockpin signalname="CEQ" name="CEQ" />
+            <blockpin signalname="CEP" name="CEP" />
             <blockpin signalname="XLXN_16" name="CLK" />
             <blockpin signalname="BUT" name="BUT" />
             <blockpin signalname="SMC" name="SMC" />
