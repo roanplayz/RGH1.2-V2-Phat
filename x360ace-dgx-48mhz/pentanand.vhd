@@ -19,7 +19,7 @@ entity penta_nand is
 	);
 end penta_nand;
 
-architecture arch of dualnand is
+architecture arch of penta_nand is
 
 signal counter : integer range 0 to 7 := 0;
 signal counter_smc : integer range 0 to 1 := 0;
