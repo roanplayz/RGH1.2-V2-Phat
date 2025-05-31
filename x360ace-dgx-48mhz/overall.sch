@@ -78,12 +78,6 @@
             <arc ex="112" ey="-144" sx="192" sy="-96" r="88" cx="116" cy="-56" />
             <line x2="48" y1="-48" y2="-48" x1="112" />
         </blockdef>
-        <blockdef name="divider_post">
-            <timestamp>2021-5-6T22:1:21</timestamp>
-            <rect width="256" x="64" y="-64" height="64" />
-            <line x2="0" y1="-32" y2="-32" x1="64" />
-            <line x2="384" y1="-32" y2="-32" x1="320" />
-        </blockdef>
         <blockdef name="penta_nand">
             <timestamp>2022-8-5T15:13:53</timestamp>
             <rect width="256" x="64" y="-448" height="448" />
@@ -114,10 +108,6 @@
             <blockpin signalname="XLXN_6" name="in_slow" />
             <blockpin signalname="PLL" name="PLL" />
             <blockpin signalname="XLXN_11" name="callback" />
-        </block>
-        <block symbolname="divider_post" name="XLXI_10">
-            <blockpin signalname="CLK" name="CLK" />
-            <blockpin signalname="XLXN_15" name="CLK_P" />
         </block>
         <block symbolname="or2" name="XLXI_9">
             <blockpin signalname="XLXN_41" name="I0" />
